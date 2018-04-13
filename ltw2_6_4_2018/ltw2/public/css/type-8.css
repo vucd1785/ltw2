@@ -2,7 +2,10 @@
   background: #6091ba;
   margin-bottom: 20px;
 }
-.nav {
+.main-nav .navbar {
+  margin: 0;
+}
+.main-nav .navbar .nav {
   padding: 0;
   margin: 0;
 }
@@ -13,37 +16,7 @@
   display: block;
   float: left;
 }
-.nav>li>a {
-  font-size: 13px;
-  line-height: 20px;
-  color: #dce7f0;
-  -webkit-transition: all .4s ease-in-out;
-  position: relative;
-  display: block;
-  padding: 15px 15px;
-}
-.nav li a:hover {
-  background: #6091ba;
-  color: #fff;
-}
-.nav > li > a:focus {
-  text-decoration: none;
-  background: none;
-}
-.caret {
-  margin-left: 5px;
-}
-.navbar {
-  margin: 0;
-}
-.nav li:hover a {
-  background: #4678a1;
-  color: #fff;
-}
-.nav li:hover .dropdown-menu {
-  display: block;
-}
-.dropdown-menu {
+.nav li .dropdown-menu {
   background-color: #4678a1;
   position: absolute;
   left: 0;
@@ -59,22 +32,49 @@
   display: none;
   padding: 0;
 }
-.dropdown-menu li {
+.nav li .dropdown-menu a:hover {
+  background: #3e6a8f !important;
+  color: #fff;
+  padding-left: 24px;
+}
+.nav li .dropdown-menu li {
   float: none;
 }
-.dropdown-menu li a {
+.nav li .dropdown-menu li a {
   color: #fff;
   border-bottom: 1px solid #3e6a8f;
   padding: 8px 20px;
 }
-.dropdown-menu li a i {
+.nav li .dropdown-menu li a i {
   float: right;
   text-align: center;
 }
-.dropdown-menu a:hover {
-  background: #3e6a8f !important;
+.nav li a {
+  font-size: 13px;
+  line-height: 20px;
+  color: #dce7f0;
+  -webkit-transition: all 0.4s ease-in-out;
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+}
+.nav li a:hover {
+  background: #6091ba;
   color: #fff;
-  padding-left: 24px;
+}
+.nav li a:focus {
+  text-decoration: none;
+  background: none;
+}
+.nav li:hover .dropdown-menu {
+  display: block;
+}
+.nav li:hover a {
+  background: #4678a1;
+  color: #fff;
+}
+.caret {
+  margin-left: 5px;
 }
 .dropdown-submenu {
   position: relative;
@@ -100,15 +100,15 @@
   margin-bottom: 8px;
   display: none !important;
 }
-.btn-menu:focus {
-  outline: none;
-}
 .btn-menu .icon-bar {
   background-color: #fff;
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
+}
+.btn-menu:focus {
+  outline: none;
 }
 .btn-menu .icon-bar+.icon-bar {
   margin-top: 4px;
@@ -135,9 +135,6 @@
     top: auto;
     left: auto !important;
     float: none;
-  }
-  .dropdown-menu li a {
-    padding-left: 25px;
   }
   .dropdown-submenu .dropdown-menu li a {
     padding-left: 35px;

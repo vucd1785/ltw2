@@ -29,8 +29,8 @@
                                {!! $item ['student_info']!!}
                             </p>
                             <ul class="data-lessons">
-                                <li><i class="fa fa-clock-o" aria-hidden="true"></i>{!! $item ['student_email']!!}</li>
-                                <li><i class="fa fa-film" aria-hidden="true"></i>{!! $item ['student_phone']!!}</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i>{!! $item ['student_email']!!}</li>
+                                <li><i class="fa fa-mobile" aria-hidden="true"></i>{!! $item ['student_phone']!!}</li>
                             </ul>
                         </div>
                         

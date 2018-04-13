@@ -11,6 +11,7 @@ $obj = new Sample();
 ?>
 <div class="main-nav">
             <div class="container">
+                <div class="row">
                 <button class="btn-menu">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -50,6 +51,7 @@ $obj = new Sample();
                     </ul>
                     <!--end Total MENU -->
                 </div>
+            </div>
             </div>
         </div>
 
