@@ -1,0 +1,16 @@
+http://bcdonline.net/cach-tao-va-xu-ly-gio-hang-trong-asp-net/
+Cms:
+tên file : wc-template-functions.php =>show product by title dropdownlist
+link tham kh?o: http://megaweb.com.vn/mau-website-gioi-thieu-cong-ty-co-khi-sat-thep
+
+http://localhost/wordpress/product-category/ong-thep/
+http://localhost/wordpress/product-category/thep-cay/
+http://localhost/wordpress/product-category/thep-hinh/
+
+
+X1:Lenovo1:30:300000:TQ:HD01:30/23/1234:KH01:Nguyen Van A:DC1
+X2:Lenovo2:30:300000:TQ:HD02:30/23/1235:KH02:Nguyen Van A:DC2
+X3:Lenovo3:30:300000:TQ:HD03:30/23/1236:KH03:Nguyen Van A:DC3
+X4:Lenovo4:30:300000:VN:HD04:30/23/1237:KH04:Nguyen Van A:DC4
+X5:Lenovo5:30:300000:USA:HD05:30/23/1238:KH05:Nguyen Van A:DC5
+X6:Lenovo6:30:300000:VN:HD06:30/23/1239:KH06:Nguyen Van A:DC6
